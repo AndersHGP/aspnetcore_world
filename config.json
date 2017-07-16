@@ -1,0 +1,8 @@
+{
+    "MailSettings": {
+        "ToAddress": "foo@bar.com"
+    },
+    "ConnectionStrings": {
+        "WorldContextConnection": "Data Source=(localdb)\\ProjectsV12;Database=TheWorldDb;Trusted_Connection=true;MultipleActiveResultSets=true"
+    }
+}

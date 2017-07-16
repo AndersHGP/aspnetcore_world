@@ -1,0 +1,35 @@
+@model IEnumerable<WebApplication1.Model.Trip>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+<div class="row">
+    <div class="col-md-6">
+        <h1>Another Hello World!</h1>
+        <p>This will be an awesome website soon</p>
+        <form>
+            <div class="form-group">
+                <label>Date</label>
+                <input class="form-control"/>
+            </div>
+            <div class="form-group">
+                <label>Location</label>
+                <input class="form-control"/>
+            </div>
+            <div
+                ><input class="btn btn-success" type="Submit" value="Add" />
+            </div>
+        </form>
+    </div>
+    <div class="col-md-6">
+        <h2>Map</h2>
+        <ul>
+            @foreach (var item in Model)
+            {
+                <li>@item.Name</li>
+            }
+        </ul>
+    <div/>
+<div/>
